@@ -24,7 +24,10 @@
   "autoload-dev": {
     "psr-4": {
       "Php\\Package\\Tests\\": "tests"
-    }
+    },
+    "files": [
+            "src/Utils.php"
+]
   },
   "require": {
     "illuminate/collections": "^12.0",
